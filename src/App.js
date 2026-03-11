@@ -14,12 +14,12 @@ const USERS = [
 ];
 
 const generateDemoOrders = () => [
-  { id: "FA-2026-0001", product: "Rose Gold Diamond Pendant", productImage: "https://images.unsplash.com/photo-1515562141589-67f0d569b6c2?w=300&h=300&fit=crop", customerName: "Emily Richardson", email: "emily.r@gmail.com", phone: "+1 (212) 555-0147", address: "142 West 57th Street, Apt 8B, New York, NY 10019", country: "US", status: "pending", trackingNumber: "", carrier: "", createdAt: "2026-03-10T14:30:00Z", price: "$289.00" },
-  { id: "FA-2026-0002", product: "Sterling Silver Sapphire Ring", productImage: "https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=300&h=300&fit=crop", customerName: "James Whitfield", email: "j.whitfield@outlook.com", phone: "+44 7700 900123", address: "27 Baker Street, Marylebone, London W1U 8EQ", country: "GB", status: "pending", trackingNumber: "", carrier: "", createdAt: "2026-03-10T09:15:00Z", price: "£195.00" },
-  { id: "FA-2026-0003", product: "Gold Pearl Drop Earrings", productImage: "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=300&h=300&fit=crop", customerName: "Sophie Laurent", email: "sophie.l@yahoo.ca", phone: "+1 (416) 555-0198", address: "350 Queen Street West, Unit 12, Toronto, ON M5V 2A2", country: "CA", status: "shipped", trackingNumber: "YT2098765432101", carrier: "YunExpress", createdAt: "2026-03-08T11:45:00Z", shippedAt: "2026-03-09T16:20:00Z", price: "CA$245.00" },
-  { id: "FA-2026-0004", product: "Platinum Tennis Bracelet", productImage: "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=300&h=300&fit=crop", customerName: "Olivia Chen", email: "olivia.chen@gmail.com", phone: "+61 4 1234 5678", address: "88 George Street, Level 3, Sydney NSW 2000", country: "AU", status: "shipped", trackingNumber: "4PX3456789012", carrier: "4PX", createdAt: "2026-03-07T08:00:00Z", shippedAt: "2026-03-08T10:30:00Z", price: "AU$520.00" },
-  { id: "FA-2026-0005", product: "Emerald Cut Engagement Ring", productImage: "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?w=300&h=300&fit=crop", customerName: "Michael Brooks", email: "m.brooks@hotmail.com", phone: "+1 (310) 555-0234", address: "8840 Wilshire Blvd, Suite 200, Beverly Hills, CA 90211", country: "US", status: "pending", trackingNumber: "", carrier: "", createdAt: "2026-03-11T07:20:00Z", price: "$1,450.00" },
-  { id: "FA-2026-0006", product: "18K White Gold Hoop Earrings", productImage: "https://images.unsplash.com/photo-1630019852942-f89202989a59?w=300&h=300&fit=crop", customerName: "Charlotte Davies", email: "c.davies@gmail.com", phone: "+44 7911 123456", address: "15 Sloane Street, Knightsbridge, London SW1X 9NB", country: "GB", status: "pending", trackingNumber: "", carrier: "", createdAt: "2026-03-11T08:45:00Z", price: "£340.00" },
+  { id: "FA-2026-0001", product: "Rose Gold Diamond Pendant", productImage: "https://images.unsplash.com/photo-1515562141589-67f0d569b6c2?w=300&h=300&fit=crop", customerName: "Emily Richardson", email: "emily.r@gmail.com", phone: "+1 (212) 555-0147", address: "142 West 57th Street, Apt 8B, New York, NY 10019", country: "US", status: "pending", trackingNumber: "", carrier: "", createdAt: "2026-03-10T14:30:00Z" },
+  { id: "FA-2026-0002", product: "Sterling Silver Sapphire Ring", productImage: "https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=300&h=300&fit=crop", customerName: "James Whitfield", email: "j.whitfield@outlook.com", phone: "+44 7700 900123", address: "27 Baker Street, Marylebone, London W1U 8EQ", country: "GB", status: "pending", trackingNumber: "", carrier: "", createdAt: "2026-03-10T09:15:00Z" },
+  { id: "FA-2026-0003", product: "Gold Pearl Drop Earrings", productImage: "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=300&h=300&fit=crop", customerName: "Sophie Laurent", email: "sophie.l@yahoo.ca", phone: "+1 (416) 555-0198", address: "350 Queen Street West, Unit 12, Toronto, ON M5V 2A2", country: "CA", status: "shipped", trackingNumber: "YT2098765432101", carrier: "YunExpress", createdAt: "2026-03-08T11:45:00Z", shippedAt: "2026-03-09T16:20:00Z" },
+  { id: "FA-2026-0004", product: "Platinum Tennis Bracelet", productImage: "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=300&h=300&fit=crop", customerName: "Olivia Chen", email: "olivia.chen@gmail.com", phone: "+61 4 1234 5678", address: "88 George Street, Level 3, Sydney NSW 2000", country: "AU", status: "shipped", trackingNumber: "4PX3456789012", carrier: "4PX", createdAt: "2026-03-07T08:00:00Z", shippedAt: "2026-03-08T10:30:00Z" },
+  { id: "FA-2026-0005", product: "Emerald Cut Engagement Ring", productImage: "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?w=300&h=300&fit=crop", customerName: "Michael Brooks", email: "m.brooks@hotmail.com", phone: "+1 (310) 555-0234", address: "8840 Wilshire Blvd, Suite 200, Beverly Hills, CA 90211", country: "US", status: "pending", trackingNumber: "", carrier: "", createdAt: "2026-03-11T07:20:00Z" },
+  { id: "FA-2026-0006", product: "18K White Gold Hoop Earrings", productImage: "https://images.unsplash.com/photo-1630019852942-f89202989a59?w=300&h=300&fit=crop", customerName: "Charlotte Davies", email: "c.davies@gmail.com", phone: "+44 7911 123456", address: "15 Sloane Street, Knightsbridge, London SW1X 9NB", country: "GB", status: "pending", trackingNumber: "", carrier: "", createdAt: "2026-03-11T08:45:00Z" },
 ];
 
 const FLAGS = { US: "🇺🇸", CA: "🇨🇦", GB: "🇬🇧", AU: "🇦🇺" };
@@ -392,7 +392,6 @@ const injectStyles = () => {
     }
     .order-row .or-customer { font-size: 12px; color: var(--taupe); margin-top: 3px; }
     .order-row .or-right { text-align: right; flex-shrink: 0; }
-    .order-row .or-price { font-size: 14px; font-weight: 600; color: var(--charcoal); }
 
     /* STATUS BADGE */
     .badge {
@@ -443,10 +442,6 @@ const injectStyles = () => {
       object-fit: cover; border: 1px solid var(--sand);
     }
     .ds-product-name { font-size: 17px; font-weight: 600; color: var(--charcoal); }
-    .ds-product-price {
-      font-family: var(--font-display); font-size: 22px;
-      color: var(--gold-dark); margin-top: 4px;
-    }
     .ds-info-row {
       display: flex; justify-content: space-between;
       padding: 10px 0; border-bottom: 1px solid var(--cream);
@@ -809,7 +804,7 @@ export default function App() {
                       </div>
                       <div className="or-right">
                         <span className={`badge badge-${o.status}`}>{STATUS[o.status].label}</span>
-                        <div className="or-price" style={{ marginTop: 8 }}>{o.price}</div>
+
                       </div>
                     </div>
                   ))}
@@ -840,7 +835,6 @@ export default function App() {
                           <img className="ds-product-img" src={o.productImage} alt="" onError={e => { e.target.style.display = "none"; }} />
                           <div>
                             <div className="ds-product-name">{o.product}</div>
-                            <div className="ds-product-price">{o.price}</div>
                           </div>
                         </div>
                       </div>
